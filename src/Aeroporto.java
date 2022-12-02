@@ -54,6 +54,6 @@ public class Aeroporto{
 
     @Override
     public String toString() {
-        return "Nome: " + nome + "\tSigla: " + sigla + "\nCoordenadas:" + timezone + "\t" + xcord + "\t" + ycord;
+        return "Dados do Aeroporto\n\nNome: " + nome + "\tSigla: " + sigla + "\nTimezone: " + timezone + "\tCoordenada X: " + xcord + "\tCoordenada Y: " + ycord+"\n\n";
     }
 }

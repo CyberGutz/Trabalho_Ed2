@@ -1,26 +1,11 @@
-## Getting Started
+# Relatório do Trabalho de Estrutura de Dados 2
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+O Relatório a seguir é referente ao trabalho de Estrutura de Dados 2, com o objetivo de clarificar a representação e implementação de grafos.
 
-## Folder Structure
+## Estruturas
 
-The workspace contains two folders by default, where:
+Foram usados na implementação do trabalho, 5 classes 3 delas contendo os atributos e métodos de cada artefato (Aeroporto, Voo e Rota). A quarta classe (Carregador) carrega os artefatos de arquivos texto em listas (ArrayList). A quinta classe implementa os algorítmos de relatório. Segue o diagrama de classes básicas: 
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+<br>
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
-
-
-Iterator<Voo> aeroIt = vo.iterator();
-
-        while(aeroIt.hasNext()){
-            System.out.println("\n\nVoo : \n");
-            System.out.println(aeroIt.next().toString());
-        }
+<img src = "./DOCS/Diagrama_de_classes.png">

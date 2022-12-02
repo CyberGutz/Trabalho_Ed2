@@ -66,6 +66,6 @@ public class Voo {
 
     @Override
     public String toString() {
-        return "Numero do Voo: " + numeroDoVoo + "\nAeroporto de origem: \n" + origem.toString() + "\nHorario de saída: "+ saida.toString() +"\nAeroporto destino: \n" + destino.toString() + "\nHorario de chegada: "+ chegada.toString() + "\nParadas até o destino: " + paradas;
+        return "\n\nDados do Voo: \n\nNumero do Voo: " + numeroDoVoo + "\nAeroporto de origem: \n" + origem.toString() + "\nHorario de saída: "+ saida.toString() +"\nAeroporto destino: \n" + destino.toString() + "\nHorario de chegada: "+ chegada.toString() + "\nParadas até o destino: " + paradas + "\n";
     }
 }

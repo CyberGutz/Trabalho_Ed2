@@ -52,7 +52,7 @@ public class Rota {
 
     @Override
     public String toString() {
-            return "\nAeroporto Origem: \n\n" + origem.toString() + "\n\nAeroporto Destino: \n\n" + destino.toString() + "\n\nDistancia entre os dois aeroportos: " + formatador.format(distancia);
+            return "\n\n\nDados da Rota: \n\nAeroporto Origem: \n\n" + origem.toString() + "Aeroporto Destino: \n\n" + destino.toString() + "Distancia entre os dois aeroportos: " + formatador.format(distancia) + "\n\n";
     }
 
 }
